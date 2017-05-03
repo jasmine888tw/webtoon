@@ -174,6 +174,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bEt-Zn-J2P" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="gxC-oN-IZg">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -193,6 +194,10 @@
         <scene sceneID="Shc-DU-Fhy">
             <objects>
                 <viewController id="IYA-jD-Zpd" customClass="ViewController" customModule="_0170502" customModuleProvider="target" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2840" id="Tsv-KK-fgx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <tabBarItem key="tabBarItem" title="我的漫畫" image="icon-4" id="xvD-Ue-U4z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sV3-Xa-Cq0" sceneMemberID="firstResponder"/>
@@ -203,6 +208,10 @@
         <scene sceneID="6tj-W3-7CM">
             <objects>
                 <viewController id="tOK-Xy-DF9" customClass="ViewController" customModule="_0170502" customModuleProvider="target" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2841" id="grM-2c-LgN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <tabBarItem key="tabBarItem" title="其他" image="icon-5" id="4d8-ME-eGe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4KF-lV-f2P" sceneMemberID="firstResponder"/>
@@ -212,14 +221,14 @@
         <!--今日更新-->
         <scene sceneID="RLv-46-2cw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6SR-XT-PwN" sceneMemberID="firstResponder"/>
                 <viewController id="Z4C-aj-jIY" customClass="ViewController" customModule="_0170502" customModuleProvider="target" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2837" id="Wkg-pA-wcG">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2838" id="Wkg-pA-wcG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <tabBarItem key="tabBarItem" title="今日更新" image="icon-2" id="C68-aF-Ujh"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6SR-XT-PwN" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-761" y="834"/>
         </scene>
@@ -227,6 +236,10 @@
         <scene sceneID="h9L-rd-b92">
             <objects>
                 <viewController id="kbt-Jc-kE7" customClass="ViewController" customModule="_0170502" customModuleProvider="target" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2842" id="CFa-C5-RTR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <tabBarItem key="tabBarItem" title="投稿新星專區" image="icon-3" id="CR5-7n-F6a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rje-3B-S62" sceneMemberID="firstResponder"/>
@@ -235,7 +248,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_2837" width="750" height="1334"/>
+        <image name="IMG_2838" width="750" height="1334"/>
+        <image name="IMG_2840" width="750" height="1334"/>
+        <image name="IMG_2841" width="750" height="1334"/>
+        <image name="IMG_2842" width="750" height="1334"/>
         <image name="icon-1" width="29" height="29"/>
         <image name="icon-2" width="28" height="28"/>
         <image name="icon-3" width="28" height="28"/>
